@@ -12,3 +12,9 @@
 Compile game.cpp to WebAssembly using Emscripten:
 emcc game.cpp -o game.wasm -s EXPORTED_FUNCTIONS='["_initGame","_spawnMinions","_updateMinions","_updateTowers","_movePlayer","_useAbility","_updatePlayers","_getPlayerHealth","_getPlayerX","_getPlayerY","_getAbilityCooldown","_getMinionCount","_getMinionX","_getMinionY","_getTowerHealth","_getTowerX","_getTowerY","_getBaseHealth","_getBaseX","_getBaseY"]' -s EXPORTED_RUNTIME_METHODS='["cwrap"]'
 
+Optimizations:
+WASM - C++ Code compiled to Web Assembly
+WebRTC - UDP protocol
+AV1 - Compressed video file type
+AVIF - Compressed image file type
+Opus - Compressed audio file type 
